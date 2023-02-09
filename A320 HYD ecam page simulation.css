@@ -1,0 +1,342 @@
+
+            .cls-1 {
+              fill: #020202;
+            }
+      
+            .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+              font-size: 27.17px;
+            }
+      
+            .cls-2 {
+              fill: #e0e0e0;
+              font-family: AirbusDisp;
+            }
+      
+            .cls-10, .cls-2, .cls-20, .cls-22, .cls-23, .cls-26, .cls-27, .cls-3, .cls-30, .cls-31, .cls-36, .cls-38, .cls-4, .cls-5, .cls-6, .cls-7 {
+              text-anchor: middle;
+            }
+      
+            .cls-10, .cls-11, .cls-2, .cls-20, .cls-22, .cls-23, .cls-26, .cls-3, .cls-30, .cls-31, .cls-36, .cls-38, .cls-4, .cls-5, .cls-6, .cls-7 {
+              text-transform: uppercase;
+            }
+      
+            .cls-3 {
+              fill: #00a3b7;
+              font-family: ECAMa;
+            }
+      
+            .cls-4 {
+              fill: #00da3e;
+            }
+      
+            .cls-38, .cls-4 {
+              font-family: AirbusPFD2;
+            }
+      
+            .cls-5 {
+              fill: #00b2c8;
+              font-family: AirbusMCDUb;
+            }
+      
+            .cls-6 {
+              fill: #00b6cb;
+            }
+      
+            .cls-26, .cls-6 {
+              font-family: AirbusISIS;
+            }
+      
+            .cls-13, .cls-23, .cls-27, .cls-30, .cls-37, .cls-38, .cls-7 {
+              fill: #fff;
+            }
+      
+            .cls-28, .cls-30, .cls-7 {
+              font-family: AirbusMCDUa;
+            }
+      
+            .cls-12, .cls-17, .cls-21, .cls-24, .cls-25, .cls-29, .cls-33, .cls-34, .cls-35, .cls-8 {
+              fill: none;
+            }
+      
+            .cls-8, .cls-9 {
+              stroke: #636363;
+              stroke-width: 3px;
+            }
+      
+            .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-24, .cls-25, .cls-29, .cls-32, .cls-33, .cls-34, .cls-35, .cls-8 {
+              fill-rule: evenodd;
+            }
+      
+            .cls-9 {
+              fill: #636363;
+            }
+      
+            .cls-10, .cls-11, .cls-20, .cls-22, .cls-23, .cls-26, .cls-27, .cls-30, .cls-31, .cls-36, .cls-38 {
+              font-size: 34.17px;
+            }
+      
+            .cls-10, .cls-11, .cls-18 {
+              fill: #df7400;
+            }
+      
+            .cls-10, .cls-11, .cls-20, .cls-22, .cls-23, .cls-27, .cls-31, .cls-36 {
+              font-family: AirbusDisp2;
+            }
+      
+            .cls-12 {
+              stroke: #df7400;
+            }
+      
+            .cls-12, .cls-17, .cls-35 {
+              stroke-width: 1.87px;
+            }
+      
+            .cls-14 {
+              fill: #00ec43;
+            }
+      
+            .cls-15 {
+              fill: #00e642;
+            }
+      
+            .cls-16, .cls-19 {
+              fill: #00e440;
+            }
+      
+            .cls-17, .cls-21, .cls-25 {
+              stroke: #00e440;
+            }
+      
+            .cls-20, .cls-26 {
+              fill: #ededed;
+            }
+      
+            .cls-21, .cls-25 {
+              stroke-width: 1.22px;
+            }
+      
+            .cls-22 {
+              fill: #00d13b;
+            }
+      
+            .cls-24 {
+              stroke: #00d13b;
+            }
+      
+            .cls-24, .cls-29, .cls-33, .cls-34 {
+              stroke-width: 2.51px;
+            }
+      
+            .cls-29 {
+              stroke: #f0f0f0;
+            }
+      
+            .cls-31 {
+              fill: #f0f0f0;
+            }
+      
+            .cls-32 {
+              fill: #00cc3a;
+            }
+      
+            .cls-33 {
+              stroke: #00cc3a;
+            }
+      
+            .cls-34 {
+              stroke: #00dd3e;
+            }
+      
+            .cls-35 {
+              stroke: #00b433;
+            }
+      
+            .cls-36 {
+              fill: #00a9bc;
+            }
+                     .cls-a {
+              fill: #4a6263;
+            }
+      
+            .cls-b, .cls-g {
+              font-size: 27.17px;
+              text-anchor: middle;
+              font-family: ECAMa;
+              text-transform: uppercase;
+            }
+      
+            .cls-b {
+              fill: #c9cb89;
+            }
+      
+            .cls-c {
+              fill: none;
+            }
+      
+            .cls-c, .cls-d {
+              stroke: #c9cb89;
+            }
+      
+            .cls-c, .cls-d, .cls-e, .cls-f {
+              stroke-width: 1.87px;
+            }
+      
+            .cls-c, .cls-f {
+              fill-rule: evenodd;
+            }
+      
+            .cls-d, .cls-e, .cls-f {
+              fill: #121212;
+            }
+      
+            .cls-e, .cls-f {
+              stroke: #fff;
+            }
+      
+            .cls-g {
+              fill: #fff;
+            }
+            .rotate-180 {
+                transform: rotate(180deg);
+            }
+                    .cls-a {
+              fill: #4a6263;
+            }
+      
+            .cls-b, .cls-g {
+              font-size: 27.17px;
+              text-anchor: middle;
+              font-family: ECAMa;
+              text-transform: uppercase;
+            }
+      
+            .cls-b {
+              fill: #c9cb89;
+            }
+      
+            .cls-c {
+              fill: none;
+            }
+      
+            .cls-c, .cls-d {
+              stroke: #c9cb89;
+            }
+      
+            .cls-c, .cls-d, .cls-e, .cls-f {
+              stroke-width: 1.87px;
+            }
+      
+            .cls-c, .cls-f {
+              fill-rule: evenodd;
+            }
+      
+            .cls-d, .cls-e, .cls-f {
+              fill: #121212;
+            }
+      
+            .cls-e, .cls-f {
+              stroke: #fff;
+            }
+      
+            .cls-g {
+              fill: #fff;
+            }
+            .rotate-180 {
+                transform: rotate(180deg);
+            }
+                .cls-a {
+              fill: #4a6263;
+            }
+      
+            .cls-b, .cls-g {
+              font-size: 27.17px;
+              text-anchor: middle;
+              font-family: ECAMa;
+              text-transform: uppercase;
+            }
+      
+            .cls-b {
+              fill: #c9cb89;
+            }
+      
+            .cls-c {
+              fill: none;
+            }
+      
+            .cls-c, .cls-d {
+              stroke: #c9cb89;
+            }
+      
+            .cls-c, .cls-d, .cls-e, .cls-f {
+              stroke-width: 1.87px;
+            }
+      
+            .cls-c, .cls-f {
+              fill-rule: evenodd;
+            }
+      
+            .cls-d, .cls-e, .cls-f {
+              fill: #121212;
+            }
+      
+            .cls-e, .cls-f {
+              stroke: #fff;
+            }
+      
+            .cls-g {
+              fill: #fff;
+            }
+            .rotate-180 {
+                transform: rotate(180deg);
+            }
+            .cls-a {
+                fill: #4a6263;
+              }
+        
+              .cls-b, .cls-g {
+                font-size: 27.17px;
+                text-anchor: middle;
+                font-family: ECAMa;
+                text-transform: uppercase;
+              }
+        
+              .cls-b {
+                fill: #c9cb89;
+              }
+        
+              .cls-c {
+                fill: none;
+              }
+        
+              .cls-c, .cls-d {
+                stroke: #c9cb89;
+              }
+        
+              .cls-c, .cls-d, .cls-e, .cls-f {
+                stroke-width: 1.87px;
+              }
+        
+              .cls-c, .cls-f {
+                fill-rule: evenodd;
+              }
+        
+              .cls-d, .cls-e, .cls-f {
+                fill: #121212;
+              }
+        
+              .cls-e, .cls-f {
+                stroke: #fff;
+              }
+        
+              .cls-g {
+                fill: #fff;
+              }
+              #inside_green_square_off, #Between_Green_square_and_Green_top, #Green_pressure_value, #GREEN {
+                fill: #df7400
+              } 
+              #green_square-2, #Green_top_arrow {
+                  stroke: #df7400
+              }
+              #TAT_temp, #SAT_temp {
+                fill: #df7400
+              }

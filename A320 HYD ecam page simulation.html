@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A320 hydraulics simulation</title>
+    <link href="A320 HYD ecam page simulation.css" rel="stylesheet">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="A320 HYD ecam page simulation.js" defer></script>
+</head>
+<body>
+    <svg id="HYD_ecam_message" data-name="HYD ecam message" xmlns="http://www.w3.org/2000/svg" width="850.5" height="793.5" viewBox="0 0 850.5 793.5">
+        <rect id="Background" class="cls-1" width="850.5" height="793.5"/>
+        <g id="Lower_region" data-name="Lower region">
+          <g id="Weight">
+            <text id="Gross_weight" data-name="Gross weight" class="cls-2" transform="translate(588.802 712.696) scale(0.94 0.898)">gw</text>
+            <text id="Gross_weight_unit" data-name="Gross weight unit" class="cls-3" transform="translate(787.71 714.764) scale(0.94 0.898)">kg</text>
+            <text id="Gross_weight_value" data-name="Gross weight value" class="cls-3" transform="translate(689.214 712.696) scale(1.049 0.898)">--</text>
+          </g>
+          <g id="Time">
+            <text id="hours" class="cls-4" transform="translate(387.387 738.525) scale(1.072 1.055)">01</text>
+            <text id="minutes" class="cls-4" transform="translate(460.669 739.949) scale(0.956 0.977)">31</text>
+            <text id="H" class="cls-5" transform="translate(424.625 739.03) scale(1.149)">h</text>
+          </g>
+          <g id="Temperatures">
+            <text id="TAT_c" data-name="TAT °c" class="cls-6" transform="translate(232.477 715.419) scale(0.897)">°c</text>
+            <text id="SAT_c_" data-name="SAT °c " class="cls-6" transform="translate(232.477 741.227) scale(0.897)">°c</text>
+            <text id="TAT_temp" data-name="TAT temp" class="cls-4" transform="translate(162.91 713.231) scale(0.941 1)">XX</text>
+            <text id="SAT_temp" data-name="SAT temp" class="cls-4" transform="translate(162.91 739.031) scale(0.941 1)">XX</text>
+            <text id="TAT" class="cls-7" x="81.54" y="713.254">tat</text>
+            <text id="SAT" class="cls-7" x="81.54" y="740.865">sat</text>
+          </g>
+          <g id="Border_line" data-name="Border line">
+            <path id="Upper_border_line" data-name="Upper border line" class="cls-8" d="M606.151,823.958h798" transform="translate(-581 -140)"/>
+            <rect id="Left_border_line" data-name="Left border line" class="cls-9" x="551" y="667" width="4" height="84"/>
+            <rect id="Right_border_line" data-name="Right border line" class="cls-9" x="284.938" y="687" width="4" height="84"/>
+          </g>
+        </g>
+        <g id="Green_system" data-name="Green system">
+          <g id="Green_resevoir_warning_indicators" data-name="Green resevoir warning indicators">
+            <text id="green_ovht" data-name="green ovht" class="cls-10" transform="matrix(1.04, 0.006, 0, 1.016, 235.328, 652.087)" visibility="hidden">ovht</text>
+            <text id="green_lo_air_" data-name="green lo air " class="cls-11" transform="translate(186.75 556.443) scale(0.76)" visibility="hidden">lo air</text>
+            <text id="green_press" data-name="green press" class="cls-11" transform="translate(186.75 577.844) scale(0.76)" visibility="hidden">press</text>
+          </g>
+          <g id="Green_resevoir" data-name="Green resevoir">
+            <path id="dangerous_zone_green_resevoir" data-name="dangerous zone green resevoir" class="cls-12" d="M746.708,758.012h8.616V788.96h-8.616V758.012Z" transform="translate(-581 -140)"/>
+            <path id="right_side_of_green_reservoir" data-name="right side of green reservoir" class="cls-13" d="M745.889,660.624l1.622-.811,0.081,97.366-1.621.811Z" transform="translate(-581 -140)"/>
+            <path id="left_green_side_for_green_resevoir" data-name="left green side for green resevoir" class="cls-14" d="M746.7,787.773h-9.714V667.56h8.634v-2.38H734.826l-1.079,2.38v121.4l1.079,1.19H746.7v-2.38Z" transform="translate(-581 -140)"/>
+            <path id="safe_zone_green_resevoir" data-name="safe zone green resevoir" class="cls-15" d="M747.778,684.223v1.19h8.634v-23.8h-8.634v1.19h6.476v21.424h-6.476Z" transform="translate(-581 -140)"/>
+            <path id="green_resevoir_quantity_indicator" data-name="green resevoir quantity indicator" class="cls-15" d="M734.826,652.087h2.159l10.793,13.093v2.38Z" transform="translate(-581 -140)"/>
+          </g>
+          <path id="between_Green_resevoir_and_Green_valve" data-name="between Green resevoir and  Green valve" class="cls-16" d="M745.889,627.492l1.622-.284,0.081,34.12-1.621.284Z" transform="translate(-581 -140)"/>
+          <g id="Green_Valve" data-name="Green Valve">
+            <path id="valve" class="cls-17" d="M746.727,589.01c11.028,0,19.968,8.525,19.968,19.04s-8.94,19.039-19.968,19.039-19.968-8.524-19.968-19.039S735.7,589.01,746.727,589.01Z" transform="translate(-581 -140)"/>
+            <path id="inside_valve" data-name="inside valve" class="cls-16" d="M745.613,589.01h2.169v38.079h-2.169V589.01Z" transform="translate(-581 -140)"/>
+            <rect id="inside_valve_off" data-name="inside valve off" class="cls-18" x="146.656" y="466.969" width="38.094" height="2.156" visibility="hidden"/>
+          </g>
+          <rect id="between_Green_valve_and_Green_square" data-name="between Green valve and Green square" class="cls-19" x="165" y="388" width="2" height="61"/>
+          <text id="_1" data-name="1" class="cls-20" transform="translate(222.13 412.839) scale(0.943 0.931)">1</text>
+          <g id="Green_Square" data-name="Green Square">
+            <rect id="green_square-2" data-name="green square" class="cls-21" x="144.656" y="350.406" width="42.094" height="38.063"/>
+            <rect id="inside_green_square" data-name="inside green square" class="cls-19" x="164.719" y="350.406" width="2" height="37.594" display="none"/>
+            <path id="inside_green_square_off" data-name="inside green square off" class="cls-16" d="M729.7,508.219H763.3v2H729.7v-2Z" transform="translate(-581 -140)"/>
+            <text id="green_lo" data-name="green lo" class="cls-10" transform="matrix(0.68, -0.001, -0.001, 0.795, 165.598, 380.327)" display="none">lo</text>
+          </g>
+          <rect id="Between_Green_square_and_Green_top" data-name="Between Green square and Green top" class="cls-19" x="165" y="185" width="2" height="165"/>
+          <g id="Top_green_system" data-name="Top green system">
+            <text id="Green_pressure_value" data-name="Green pressure value" class="cls-22" transform="translate(165.01 174.201) scale(0.93 0.911)">0</text>
+            <text id="GREEN" class="cls-23" transform="matrix(0.898, 0, 0, 0.822, 165.853, 135.901)">green</text>
+            <path id="Green_top_arrow" data-name="Green top arrow" class="cls-24" d="M746,228h1l9,14v1l-2,2H739l-2-2v-1Z" transform="translate(-581 -140)"/>
+          </g>
+        </g>
+        <g id="Blue_system" data-name="Blue system">
+          <g id="Blue_resevoir_warning_indicators" data-name="Blue resevoir warning indicators">
+            <text id="Blue_ovht" data-name="Blue ovht" class="cls-10" transform="translate(494.062 652.329) scale(1.031 1.016)">ovht</text>
+            <text id="blue_lo_air_" data-name="blue lo air " class="cls-11" transform="translate(445.528 556.443) scale(0.76)">lo air</text>
+            <text id="blue_press" data-name="blue press" class="cls-11" transform="translate(445.528 577.844) scale(0.76)">press</text>
+          </g>
+          <g id="Blue_resevoir" data-name="Blue resevoir">
+            <path id="dangerous_zone_blue_resevoir" data-name="dangerous zone blue resevoir" class="cls-12" d="M1004.86,743.28h8.64v45.23h-8.64V743.28Z" transform="translate(-581 -140)"/>
+            <path id="green_left_side_of_blue_resevoir" data-name="green left side of blue resevoir" class="cls-14" d="M1004.86,787.88h-9.717V673.106h8.637v-2.273H992.985l-1.08,2.273V789.017l1.08,1.136h11.875V787.88Z" transform="translate(-581 -140)"/>
+            <path id="right_side_of_blue_reservoir" data-name="right side of blue reservoir" class="cls-13" d="M1004.05,660.624l1.62-.811,0.08,97.366-1.62.811Z" transform="translate(-581 -140)"/>
+            <path id="safe_zone_blue_resevoir" data-name="safe zone blue resevoir" class="cls-15" d="M1005.94,692.3v1.615h8.63v-32.3h-8.63v1.615h6.47V692.3h-6.47Z" transform="translate(-581 -140)"/>
+            <path id="blue_resevoir_quantity_indicator" data-name="blue resevoir quantity indicator" class="cls-15" d="M992.985,658.038h2.158l10.8,13.093v2.38Z" transform="translate(-581 -140)"/>
+          </g>
+          <path id="between_blue_resevoir_and_blue_square" data-name="between blue resevoir and blue square" class="cls-16" d="M1004,661h2V589h-2v72Z" transform="translate(-581 -140)"/>
+          <g id="Blue_Square" data-name="Blue Square">
+            <path id="blue_square-2" data-name="blue square" class="cls-25" d="M983.953,550.86h42.1v38.063h-42.1V550.86Z" transform="translate(-581 -140)"/>
+            <path id="inside_blue_square" data-name="inside blue square" class="cls-16" d="M1004.02,550.86h2v37.594h-2V550.86Z" transform="translate(-581 -140)"/>
+            <path id="inside_blue_square_off" data-name="inside blue square off" class="cls-16" d="M987.984,568.673h33.6v2h-33.6v-2Z" transform="translate(-581 -140)"/>
+            <text id="Blue_lo" data-name="Blue lo" class="cls-10" transform="matrix(0.68, -0.001, -0.001, 0.795, 423.895, 440.781)">lo</text>
+          </g>
+          <text id="blue_ELEC_ovht" data-name="blue ELEC ovht" class="cls-10" transform="translate(494.974 427.341) scale(0.827 0.768)">ovht</text>
+          <text id="blue_ELEC" data-name="blue ELEC" class="cls-26" transform="translate(496.078 400.419) scale(0.85 0.839)">elec</text>
+          <path id="Between_blue_square_and_blue_top" data-name="Between blue square and blue top" class="cls-16" d="M1004,551h2V325h-2V551Z" transform="translate(-581 -140)"/>
+          <g id="Top_blue_system" data-name="Top blue system">
+            <text id="Blue_pressure_value" data-name="Blue pressure value" class="cls-22" transform="translate(423.548 174.484) scale(0.93 0.911)">2950</text>
+            <text id="blue" class="cls-27" transform="translate(425.819 135.761) scale(0.976 0.911)">bl<tspan class="cls-28">u</tspan>e</text>
+            <path id="Blue_top_arrow" data-name="Blue top arrow" class="cls-24" d="M1004.5,228h1l9,14v1l-2,2h-15l-2-2v-1Z" transform="translate(-581 -140)"/>
+          </g>
+        </g>
+        <g id="Yellow_system" data-name="Yellow system">
+          <g id="Yellow_resevoir_warning_indicators" data-name="Yellow resevoir warning indicators">
+            <text id="Yellow_eng_OVHT" data-name="Yellow eng OVHT" class="cls-10" transform="matrix(1.023, 0.006, 0, 1.016, 749.316, 652.087)">ovht</text>
+            <text id="yellow_press_" data-name="yellow press " class="cls-11" transform="translate(700.875 577.844) scale(0.76)">press</text>
+            <text id="yellow_lo_air_press" data-name="yellow lo air press" class="cls-11" transform="translate(700.875 556.443) scale(0.76)">lo air</text>
+          </g>
+          <g id="Yellow_resevoir" data-name="Yellow resevoir">
+            <path id="dangerous_zone_yellow_resevoir" data-name="dangerous zone yellow resevoir" class="cls-12" d="M1261.86,754.261h8.63v34.581h-8.63V754.261Z" transform="translate(-581 -140)"/>
+            <path id="left_side_of_yellow_resevoir" data-name="left side of yellow resevoir" class="cls-14" d="M1261.87,787.773h-9.72V667.56h8.64v-2.38h-10.8l-1.08,2.38v121.4l1.08,1.19h11.88v-2.38Z" transform="translate(-581 -140)"/>
+            <path id="right_side_of_yellow_reservoir" data-name="right side of yellow reservoir" class="cls-13" d="M1261.06,660.624l1.62-.811,0.08,97.366-1.62.811Z" transform="translate(-581 -140)"/>
+            <path id="safe_zone_yellow_resevoir" data-name="safe zone yellow resevoir" class="cls-15" d="M1262.95,687.777v1.377h8.63V661.609h-8.63v1.377h6.47v24.791h-6.47Z" transform="translate(-581 -140)"/>
+            <path id="yellow_resevoir_quantity_indicator" data-name="yellow resevoir quantity indicator" class="cls-15" d="M1249.99,652.087h2.16l10.8,13.093v2.38Z" transform="translate(-581 -140)"/>
+          </g>
+          <path id="Between_yellow_resevoir_and_yellow_valve" data-name="Between yellow resevoir and yellow valve" class="cls-16" d="M1261,661h2V627h-2v34Z" transform="translate(-581 -140)"/>
+          <g id="Yellow_valve" data-name="Yellow valve">
+            <path id="yellow_valve-2" data-name="yellow valve" class="cls-17" d="M1261.91,588.062c11.02,0,19.96,8.528,19.96,19.047s-8.94,19.047-19.96,19.047-19.97-8.527-19.97-19.047S1250.88,588.062,1261.91,588.062Z" transform="translate(-581 -140)"/>
+            <rect id="inside_yellow_valve" data-name="inside yellow valve" class="cls-19" x="679.81" y="448.062" width="2.16" height="38.094"/>
+            <rect id="inside_yellow_valve_off" data-name="inside yellow valve off" class="cls-18" x="661.84" y="466.031" width="38.1" height="2.157"/>
+          </g>
+          <path id="Between_yellow_valve_and_yellow_square" data-name="Between yellow valve and yellow square" class="cls-16" d="M1261,587h2V528h-2v59Z" transform="translate(-581 -140)"/>
+          <text id="_2" data-name="2" class="cls-20" transform="translate(625.104 412.839) scale(0.943 0.931)">2</text>
+          <g id="Yellow_square" data-name="Yellow square">
+            <path id="yellow_square-2" data-name="yellow square" class="cls-25" d="M1240.95,490.406h42.1v38.063h-42.1V490.406Z" transform="translate(-581 -140)"/>
+            <path id="inside_yellow_square" data-name="inside yellow square" class="cls-16" d="M1261.02,490.406h2V528h-2V490.406Z" transform="translate(-581 -140)"/>
+            <path id="inside_yellow_square_off" data-name="inside yellow square off" class="cls-16" d="M1244.98,508.219h33.6v2h-33.6v-2Z" transform="translate(-581 -140)"/>
+            <text id="yellow_lo" data-name="yellow lo" class="cls-10" transform="matrix(0.68, -0.001, -0.001, 0.795, 680.895, 380.327)">lo</text>
+          </g>
+          <path id="Between_Yellow_square_and_top" data-name="Between Yellow square and top" class="cls-16" d="M1261,490h2V324.989h-2V490Z" transform="translate(-581 -140)"/>
+          <g id="Yellow_elec" data-name="Yellow elec">
+            <text id="Yellow_elec-2" data-name="Yellow elec" class="cls-26" transform="translate(755.583 310.262) scale(0.85 0.839)">elec</text>
+            <path id="Yellow_ELEC_arrow" data-name="Yellow ELEC arrow" class="cls-29" d="M1274,438l20-11h1l1,1v22l-1,1h-1l-20-12v-1Z" transform="translate(-581 -140)"/>
+            <path id="Yellow_elec_to_yellow_system" data-name="Yellow elec to yellow system" class="cls-16" d="M1275,437h-12v3h12v-3Z" transform="translate(-581 -140)"/>
+            <text id="yellow_ELEC_ovht" data-name="yellow ELEC ovht" class="cls-10" transform="translate(755.445 337.208) scale(0.827 0.768)">ovht</text>
+          </g>
+          <g id="Yellow_top" data-name="Yellow top">
+            <text id="Yellow_pressure_value" data-name="Yellow pressure value" class="cls-22" transform="translate(681.665 174.201) scale(0.936 0.911)">3000</text>
+            <text id="yellow" class="cls-30" transform="matrix(1.006, 0, 0, 0.862, 682.427, 135.438)">yellow</text>
+            <path id="Yellow_top_arrow" data-name="Yellow top arrow" class="cls-24" d="M1262.25,228h1l9,14v1l-2,2h-15l-2-2v-1Z" transform="translate(-581 -140)"/>
+          </g>
+        </g>
+        <g id="RAT">
+          <text id="RAT-2" data-name="RAT" class="cls-31" transform="translate(358.076 310.201) scale(0.713 0.757)">rat</text>
+          <path id="RAT_arrow" data-name="RAT arrow" class="cls-29" d="M993,440l-20,11h-1l-1-1V428l1-1h1l20,12v1Z" transform="translate(-581 -140)"/>
+          <path id="RAT_to_blue" data-name="RAT to blue" class="cls-16" d="M992,438v3h12v-3H992Z" transform="translate(-581 -140)"/>
+        </g>
+        <g id="PTU">
+          <path id="Yellow_to_PTU" data-name="Yellow to PTU" class="cls-32" d="M1180,375v2h81v-2h-81Z" transform="translate(-581 -140)"/>
+          <path id="PTU_right_right_facing_arrow" data-name="PTU right right facing arrow" class="cls-33" d="M1180,375.722L1159.39,387.7h-1.03l-1.03-1.088V362.658l1.03-1.089h1.03L1180,374.633v1.089Z" transform="translate(-581 -140)"/>
+          <path id="PTU_right_left_facing_arrow" data-name="PTU right left facing arrow" class="cls-32" d="M1157.34,373.528l20.61-11.975h1.03l1.03,1.088v23.951l-1.03,1.089h-1.03l-20.61-13.064v-1.089Z" transform="translate(-581 -140)"/>
+          <text id="ptu-2" data-name="ptu" class="cls-31" transform="translate(540.409 244.83) scale(0.713 0.688)">ptu</text>
+          <path id="PTU_left_left_facing_arrow" data-name="PTU left left facing arrow" class="cls-34" d="M1063.54,373.528l20.61-11.975h1.03l1.03,1.088v23.951l-1.03,1.089h-1.03l-20.61-13.064v-1.089Z" transform="translate(-581 -140)"/>
+          <path id="PTU_left_right_facing_arrow" data-name="PTU left right facing arrow" class="cls-32" d="M1086.21,375.722L1065.6,387.7h-1.03l-1.03-1.088V362.658l1.03-1.089h1.03l20.61,13.064v1.089Z" transform="translate(-581 -140)"/>
+          <path id="From_PTU_to_BLUE_to_arrow" data-name="From PTU to BLUE to arrow" class="cls-35" d="M1064,376h-38a21.105,21.105,0,0,1-42,0H890" transform="translate(-581 -140)"/>
+          <path id="Blue_to_Green_arrow" data-name="Blue to Green arrow" class="cls-34" d="M866.877,373.528l20.606-11.975h1.03l1.031,1.088v23.951l-1.031,1.089h-1.03l-20.606-13.064v-1.089Z" transform="translate(-581 -140)"/>
+          <path id="Green_to_Blue_arrow" data-name="Green to Blue arrow" class="cls-32" d="M889.529,375.722L868.923,387.7h-1.03l-1.03-1.088V362.658l1.03-1.089h1.03l20.606,13.064v1.089Z" transform="translate(-581 -140)"/>
+          <path id="From_arrow_to_Green" data-name="From arrow to Green" class="cls-32" d="M867,374v2H748v-2H867Z" transform="translate(-581 -140)"/>
+        </g>
+        <g id="header">
+          <text id="PSI_RIGHT" data-name="PSI RIGHT" class="cls-36" transform="translate(551.71 173.638) scale(0.645 0.632)">psi</text>
+          <text id="PSI_LEFT" data-name="PSI LEFT" class="cls-36" transform="translate(293.71 173.638) scale(0.645 0.632)">psi</text>
+          <rect id="HYD_underline" data-name="HYD underline" class="cls-37" x="391" y="61" width="66" height="3"/>
+          <text id="hyd" class="cls-38" x="423.565" y="57.723">hyd</text>
+        </g>
+      </svg>
+    <br>
+    <svg id="engine_button" data-name="engine button" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+        <rect class="cls-a" width="200" height="200"/>
+        <text id="eng_1_pump" data-name="eng 1 pump" class="cls-b" x="99.728" y="35.5">eng 1 pump</text>
+        <path class="cls-c" d="M12.729,20.491l-0.1-9,174.012,0.017,0.091,8"/>
+        <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-d" x="19" y="58" width="162" height="127" rx="10" ry="10"/>
+        <path id="on" class="cls-e" d="M40,71H160a10,10,0,0,1,10,10v44a0,0,0,0,1,0,0H30a0,0,0,0,1,0,0V81A10,10,0,0,1,40,71Z"/>
+        <path id="off" class="cls-f" d="M30,123.143H170v44a10,10,0,0,1-10,10H40a10,10,0,0,1-10-10v-44Z"/>
+        <text id="on_text" data-name="on text" class="cls-g" transform="translate(99.655 112.686) scale(1.269)">on</text>
+        <text id="off_text" data-name="off text" class="cls-g" transform="translate(99.246 162.62) scale(1.269)">off</text>
+    </svg>    
+</body>
+</html>
